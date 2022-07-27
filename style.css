@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 15);
+}
+.wrapper {
+    text-align: center;
+    margin: 40px auto;
+}
+.fen {
+    display: none;
+}
+.button {
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(3, 90, 3);
+}
+#fen-displayer {
+    font-size: 17px;
+    color: white;
+}
